@@ -1,0 +1,27 @@
+###
+// login
+POST http://localhost:4000/api/user/belepes
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "password"
+}
+
+###
+// register
+POST http://localhost:4000/api/user/regisztracio
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "password"
+}
+
+###
+//get current user
+GET http://localhost:4000/api/user/currentuser
+
+###
+//get current ddd
+POST http://localhost:4000/api/user/welcome
